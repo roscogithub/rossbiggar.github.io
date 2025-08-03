@@ -1,0 +1,111 @@
+/* Basic CSS for a clean look */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+header p {
+    color: #7f8c8d;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #e74c3c; /* Red line for sections */
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul li::before {
+    content: '•';
+    color: #e74c3c;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.experience-item {
+    margin-bottom: 25px;
+    border-left: 4px solid #3498db; /* Blue line for experience */
+    padding-left: 15px;
+}
+.experience-item h3 {
+    margin: 0;
+    color: #34495e;
+    font-size: 1.2em;
+}
+.experience-item p {
+    margin: 5px 0;
+    color: #555;
+}
+.experience-item ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+.chatbot-section {
+    background-color: #ecf0f1;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 40px;
+    text-align: center;
+}
+.chatbot-section h2 {
+    border-bottom: none;
+    color: #2c3e50;
+}
+a {
+    color: #e74c3c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill-tag {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
